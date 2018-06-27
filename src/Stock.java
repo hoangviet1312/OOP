@@ -1,8 +1,8 @@
 public class Stock {
-    String symbol;
-    String nameCoPhieu;
-    double gia_homqua;
-    double gia_homnay;
+    private String symbol;
+    private String nameCoPhieu;
+    private double gia_homqua;
+    private double gia_homnay;
 
     public void symbol(String symbol) {
         this.symbol = symbol;
